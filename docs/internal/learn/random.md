@@ -41,6 +41,9 @@ nav_exclude: true
 
 ## Licenses
 
+- [link](https://spdx.org/licenses/) SPDX License List
+- [link](https://www.amazon.com/Practical-Software-Licensing-Licensees-Licensors/dp/1634254007) A Practical Guide to Software Licensing for Licensees and Licensors
+
 ## Presentation
 
 - [Marp](https://marp.app/) for Markdown presentation

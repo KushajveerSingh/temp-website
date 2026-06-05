@@ -189,6 +189,11 @@ Take inspiration from
 
 - Create transpiler for programming languages to Rust. For each language look at the top libraries and transpile them as a proof of concept. Also, check performance of the transpiled to the original.
     - If a language has a specific tooling built around it, build that for the Rust version as well.
+- Create an intermediate language and transpile from that to target language.
+
+### File Formats
+
+- Create a performance optimized parser (using SIMD assembly) for XML, HTML, CSS, TOML, ...
 
 ### Fortran
 
@@ -274,6 +279,7 @@ Take inspiration from
 - Components
     - Header - Similar to amazon mobile app, the header background fades if you have not scrolled for some time, and then the text fades as well.
     - [link](https://rednegra.net/blog/20260212-virtual-scroll/?ck_subscriber_id=2308324911) Virtual Scrolling for Billions of Rows
+- Look at ui/ux related to architecture like nuclear plants and architecture where they have control panels.
 
 ### Markdown Editor
 
@@ -525,6 +531,7 @@ Take inspiration from
     - As part of the default template, make the all the smaller components available for people to build their template on as well.
 - Links
     - [link](https://www.labbit.com/) labbit
+- On instrument page, drop file and choose any needed parameters, so that the loading of data is not dependent on filename. In case of incorrect format, show example of correct format.
 
 ## Agriculture SAAS
 
@@ -1104,6 +1111,9 @@ Take inspiration from
     - Image manipualation related
 - Add smaller tools like tinyurl.
 - Create a new js framework based on qwik. Take out stuff that relates to creating apis, optimize using things learned in Computer Enhance course, maybe change the way qwik stores data in frontend from json to something better. Take good things from other frameworks into this.
+- Compiling program for most security. Have a machine never connected to internet. Compile the compiler, compile the project. Do double signing and checksums. Vlc does this.
+- Look into reproducible packages.
+- Look into how curl, ffmpeg handles security.
 
 ## Mouse Macros
 
@@ -1208,6 +1218,7 @@ Take inspiration from
 - Add controller UIs and ability to natively support all controllers, even if it requires specific drivers.
 - Add common mods like admin camera, viewer statistics (in case poeple want to watch a stream of the game).
 - Apple uses Metal (there is tool to translate Tto Vulkan) and Linux uses Vulkan (windows can use it instead of DirectX 12).
+- Game engine built with odin. Split the engine so it can focus on different genre of games like rts, rpg, sekiro style combat
 
 ## Web to QML
 
@@ -1321,6 +1332,17 @@ Take inspiration from
     - Combine speed fields into one as well (with +/-) to compress. Like show speed and show +2 to mean the avg is +2 of current.
     - Combine distance fields. Current distance, distance to next stop (show it as +value), and same for total distance remaining (as +value).
 
+## Training App
+
+- Desktop app to modify activities, get all metrics, charts. Essentially look at all sensors and their associated apps and combine them into a single desktop app.
+- For each activity have an export option to pdf, to print out the activity nicely. Also, have an html export option and give users a template for online hosting.
+- When exporting to hyml create main folder and one page for each sub activity and one page with everything combined.
+- Allow comparing all data side by side for cases when you are comparing two power meters.
+- Add team members and compare numbers, track progress. See how the workout compares to the set target like zone or something.
+- Analyze zwift race and tell the optimal place for powerups, zwift specific features like supertuck that you missed
+- Add other sports like running, rowing. Have a calendar view to see overciew
+- For each activity add nutrition section, where you enter the food you brought and food you used. And it will break down everything to the micro nutrients.
+
 ## Custom Computer Hardware
 
 - Common
@@ -1368,3 +1390,16 @@ Take inspiration from
     - Maybe it shows them the rendered component as well in different languages.
 - On the developer side, they choose a base language. When they update an element in this language, only then the other languages will get missing translation flag.
     - In the UI component visualization project add support to render component in multiple translations.
+
+## Handwritten Assembly
+
+- Make a framework to make it easier to write assembly, with memory checks similar to rust.
+- Add security checks for handwritten assembly similar to rust borrow checker.
+- Create a language over assembly that gets transpiled to assembly.
+- Create a variant folder where you place code for avx512, avx256 and so on. During the build process the right piece of code is selected.
+- Use import statement to copy paste the contents of a file. This allows to separate assembly into smaller files.
+- Goal is to add 0 runtime cost over writing normal assembly.
+
+## No JavaScript Framework
+
+- Create no-js framework with ui components and related tooling like linter.

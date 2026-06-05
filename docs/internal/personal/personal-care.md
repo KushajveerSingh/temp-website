@@ -48,6 +48,7 @@ nav_exclude: true
 ### Programs
 
 - [link](https://strengthsystem.com/online/) Strength System
+- [link](https://shop.issaonline.com/collections/certification-course) ISSA Certifications
 
 ### Basketball videos
 
@@ -91,6 +92,16 @@ nav_exclude: true
 
 - [ ] [link](https://www.footdoctorzach.com/customization) Show Customization & Lower Leg Taping E-book
 - Work with local orthopedic and get an exam to get custom orthotics
+- [link](https://www.youtube.com/watch?v=imWqPCeuWWc) This $15 Device Fixes What Orthotics & Braces Can't
+
+### Fields
+
+- Neurobiology
+- Bioenergetics
+- Biomechanics
+- Physiology
+- Human Anatomy
+    - [link](https://www.kenhub.com/) KenHub
 
 ## Fragrance
 

@@ -66,6 +66,7 @@ nav_exclude: true
 - [ ] [link](https://www.youtube.com/@whosajid/videos) Sajid youtube videos
 - [ ] [link](https://www.youtube.com/@TimGabe/videos) Time Gabe youtube channel
 - [ ] [link](https://www.youtube.com/@KoleJain/videos) Kole Jain youtube channel
+- [ ] [link](https://www.youtube.com/@Design.Theory/videos) Design Theory youtube channel
 - [ ] [link](https://www.refactoringui.com/) Refactoring UI book
     - [ ] [link](https://www.youtube.com/watch?v=7Z9rrryIOC4) Steve Schoger \| Refactoring UI \| CSS Day 2019
     - [ ] [link](https://www.youtube.com/playlist?list=PLDVpvW8ghDr9tasku_YvuTy_l0xPUtOHE) Refactoring UI playlist
@@ -87,6 +88,8 @@ nav_exclude: true
 
 ## Typography
 
+- [ ] [link](https://systemfontstack.com/) System Font Stack
+    - Find variable system fonts for each operating system
 - [ ] [link](https://typographyforlawyers.com/) Typography for lawyers
 - [ ] [link](https://www.youtube.com/watch?v=WdBNYcWG0Yg) CSS Typography Crash Course kevin powell
 - [ ] [link](https://web.dev/articles/baseline-in-action-fluid-type) Responsive and fluid typography with Baseline CSS features

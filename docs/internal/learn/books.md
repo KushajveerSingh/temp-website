@@ -157,3 +157,6 @@ nav_exclude: true
 
 - [ ] [link](https://www.amazon.com/dp/1617296279) Unit Testing Principles, Practices, and Patterns: Effective testing styles, patterns, and reliable automation for unit testing, mocking, and integration testing with examples in C#
 - [ ] [link](https://www.amazon.com/dp/0321503627) Growing Object-Oriented Software, Guided by Tests
+- [link](https://ffmpeg.org/fate.html) FFmpeg Automated Testing Environment
+- [link](https://checkasm.videolan.me/) VLC testing
+- [link](https://youtu.be/_n2vN-Bgq4U?t=2327) CURL testing presentation slide

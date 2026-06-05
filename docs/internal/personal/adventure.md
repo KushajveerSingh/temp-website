@@ -21,6 +21,7 @@ nav_exclude: true
 
 ## Activities
 
+- [link](https://www.topendsports.com/sport/list/index.htm) List of sports
 - Boating
     - Fishing
     - Waterboarding
@@ -53,6 +54,45 @@ nav_exclude: true
 - Hot air balloon
 - Eclipse
 - Constellation
+
+### Bike
+
+- [link](https://bikepacking.com/event/) Bike packing
+    - [link](https://www.reddit.com/r/bikepacking/wiki/index/) r/bikepacking wiki for routes
+- [link](https://www.adventurecycling.org/) Adventure Cycling (Bikepacking + Touring)
+- [link](https://www.bikereg.com/Events) BikeReg
+- [link](https://rusa.org/) Randonneurs USA
+    - [link](https://haroen.me/brevet-finder/?refinementList[country]=USA&view=hits&range[date]=20260427:) Brevet finder
+- [link](https://ultracycling.com/) Ultracycling
+- [link](https://www.granfondoguide.com/) Gran Fondo
+- Youtube
+    - [link](https://www.youtube.com/@Buzzalong.cycling/videos) BuzzAlong youtube channel
+    - [link](https://www.youtube.com/@KilianBron) Kilian Bron
+- Testing/Fitting
+    - [link](https://www.cyclologic.com/) Cyclo Logic (Bike fitting)
+    - [link](https://www.thefreespeedlab.com/) FreeSpeedLab (Bike fitting and other)
+    - [link](https://humanpoweredhealth.com/services) Human Powered Health
+- Training
+    - [link](https://boundless10200.com/coaching-training-plans/boundless-base) Boundless Coaching
+    - [link](https://mywhoosh.com/) mywhoosh training plan
+
+### Bowling
+
+- [link](https://www.youtube.com/playlist?list=PLIJkpFPX3BspjxF8mCxq8rWKZ74EYAgxh) The Classroom playlist by Luke Rosdahl
+- [link](https://www.nationalbowlingacademy.com/) National Bowling Academy videos
+
+### Hiking
+
+- Border-to-Border Calendar Year Triple Crown 10,000 mile challenge
+
+### Rock climbing
+
+- [link](https://www.activeclimbing.com/athens) Active Climbing Athens
+
+### Rowing
+
+- [link](https://biorower.com/) Indoor Rowing and Sculling
+- [link](https://biorow.com/) Biorow newsletter
 
 ## Buy
 
@@ -164,18 +204,11 @@ nav_exclude: true
 
 ### Race websites
 
-- [link](https://bikepacking.com/event/) Bike packing
-    - [link](https://www.reddit.com/r/bikepacking/wiki/index/) r/bikepacking wiki for routes
-- [link](https://www.bikereg.com/Events) BikeReg
 - [link](https://www.gamultisports.com/) Georgia Multisport
 - [link](https://www.runreg.com/events) RunReg
 - [link](https://runningintheusa.com/race/list/) Running In The USA
 - [link](https://www.skireg.com/Events) SkiReg
 - [link](https://www.trireg.com/Events) TriReg
-
-### Youtube
-
-- [link](https://www.youtube.com/@KilianBron) Kilian Bron
 
 ## Things in Car
 

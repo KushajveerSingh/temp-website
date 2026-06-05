@@ -37,6 +37,7 @@ nav_exclude: true
 
 - [ ] web.dev Resources
     - [ ] [link](https://web.dev/learn/images) Learn Images
+    - [ ] [link](https://piccalil.li/blog/the-end-of-responsive-images/?ck_subscriber_id=2308324911) The end of responsive images
 - [ ] MDN Resources
     - [ ] [link](https://developer.mozilla.org/en-US/docs/Web/Media) References: Media
     - [ ] [link](https://developer.mozilla.org/en-US/docs/Web/SVG) References: SVG
@@ -113,6 +114,7 @@ nav_exclude: true
     - [ ] [link](https://frontendmasters.com/courses/css-grid/) Ultimate CSS Grid & Layout Techniques, v3
     - [ ] [link](https://frontendmasters.com/courses/css-animations/) CSS Animations and Transitions
     - [ ] [link](https://frontendmasters.com/courses/winning-websites/) Award-Winning Marketing Websites
+    - [ ] [link](https://frontendmasters.com/courses/css-fundamentals/) Modern CSS Fundamentals by Kevin Powell
 - [ ] [link](https://www.devsheets.io/categories/css) CSS DevSheets by Travesy Media
 - [ ] Animations
     - [ ] [link](https://emilkowal.ski/) Emil Kowalski animation blog
@@ -137,6 +139,7 @@ nav_exclude: true
 
 ## Accessibility
 
+- [link](https://webaim.org/articles/) WebAIM
 - [link](https://userway.org/) Userway accessibility plugin
 - [ ] FrontendMasters courses
     - [ ] [link](https://frontendmasters.com/courses/accessibility-v3/) Website Accessibility, v3
@@ -200,6 +203,7 @@ nav_exclude: true
 - [ ] Libraries
     - [ ] [link](https://es-toolkit.dev/) es-toolkit
 - [ ] FrontendMasters
+    - [ ] [link](https://frontendmasters.com/courses/javascript-hard-parts-v3/) JavaScrip: The Hard Parts, v3 by Will Sentance
     - [ ] [link](https://frontendmasters.com/courses/js-design-patterns/) JavaScript Design Patterns for Web Apps
     - [ ] [link](https://frontendmasters.com/courses/frontend-system-design/) Front-End System Design
     - [ ] [link](https://frontendmasters.com/courses/pro-js-features/) Professional JS: Features You Need to Know
@@ -265,6 +269,7 @@ nav_exclude: true
 
 - [ ] [link](https://vitest.dev/) Vitest
 - [ ] [link](https://playwright.dev/) Playwright
+    - [link](https://frontendmasters.com/courses/playwright/) FrontendMasters: Playwright: Automated Testing & AI Workflows
 - [ ] web.dev Resources
     - [ ] [link](https://web.dev/learn/testing) Learn Testing
 - [ ] MDN Resources
@@ -393,6 +398,7 @@ nav_exclude: true
 - [ ] [link](https://www.dnsperf.com/#!dns-providers) DNS Performance Analytics and Comparison
 - [ ] [link](https://publicsuffix.org/list/) Public Suffix List
 - [ ] [link](https://webutils.io/) WebUtils.io by Travesy Media
+- [ ] [link](https://tom7.org/httpv/httpv.pdf) No one can force me to have a secure website!!!
 
 ### Browser support
 
@@ -465,6 +471,7 @@ nav_exclude: true
 
 ## API
 
+- [link](https://idratherbewriting.com/learnapidoc/) Documenting APIs: A Guide for technical writers and engineers
 - [ ] [link](https://swagger.io/specification/) OpenAPI Specification
     - [ ] [link](https://github.com/OpenAPITools/openapi-generator) openapi-generator
 - [ ] [link](https://www.amazon.com/Mastering-API-Architecture-Operate-API-Based/dp/1492090638) Mastering API Architecture: Design, operate and evolve API-based systems
@@ -583,6 +590,7 @@ Check [Learn - Distributed Computing](/internal/learn/cs-fields/distributed-comp
 - [ ] [link](https://www.better-auth.com/) Better-Auth
 - [ ] [link](https://casl.js.org/v6/en/) CASL authorization
 - [ ] [link](https://thecopenhagenbook.com/) The Copenhagen Book
+- [ ] [link](https://frontendmasters.com/courses/permission-systems/) FrontendMasters: Permission Systems that Scale
 
 ### Server Sent Events
 

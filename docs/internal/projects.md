@@ -220,6 +220,7 @@ Take inspiration from
 - High availability
     - patroni
 - Add backup testing, backup restore. Disaster recovery.
+- Have a test section to test queries like update, delete, create. The section automatically wraps the query in transaction and after you are confident you can commit the transaction.
 
 ### Access
 
@@ -534,6 +535,10 @@ Take inspiration from
 - On instrument page, drop file and choose any needed parameters, so that the loading of data is not dependent on filename. In case of incorrect format, show example of correct format.
 - On sample submission page for client, ask for what tests they are requested in, and then ask for the relevant information for each test. Group the input fields or data they need to provide for sample into separate groups. One group would be the "minimum information required", and then admin can create more groups. Have each test associated with multiple groups if needed. Show the groups after user has done selecting all tests.
 - On the permissions page to control access of employees to internal pages, use glob patterns to provide access to pages for employees. Document how to use glob pattern like file name, \*, \*\*. And any performance issues.
+- On generated reports, show additional available insights or analysis. Like for feeds, the clients can run PMN calculator.
+- For each sample, you will have to store the instrument minimum thresholds as well, since the thresholds can change over time. The data for previous samples should remain unaffected when changes are made to minimum thresholds.
+    - Similarly, ranges for each element data. These can change over time, but the previous samples should not be affected.
+    - In the JSON data for each sample, entries can be created for which instrument was used, instrument minimums, element ranges.
 
 ## Agriculture SAAS
 
@@ -1405,3 +1410,6 @@ Take inspiration from
 ## No JavaScript Framework
 
 - Create no-js framework with ui components and related tooling like linter.
+- Add option to inline css or use separate file. Have option to just have css reset inlined.
+- Handle CORS by enabling everything and adding only necessary things to it.
+- Add necessary HTTP headers in the HTML as well.

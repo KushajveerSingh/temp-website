@@ -532,6 +532,8 @@ Take inspiration from
 - Links
     - [link](https://www.labbit.com/) labbit
 - On instrument page, drop file and choose any needed parameters, so that the loading of data is not dependent on filename. In case of incorrect format, show example of correct format.
+- On sample submission page for client, ask for what tests they are requested in, and then ask for the relevant information for each test. Group the input fields or data they need to provide for sample into separate groups. One group would be the "minimum information required", and then admin can create more groups. Have each test associated with multiple groups if needed. Show the groups after user has done selecting all tests.
+- On the permissions page to control access of employees to internal pages, use glob patterns to provide access to pages for employees. Document how to use glob pattern like file name, \*, \*\*. And any performance issues.
 
 ## Agriculture SAAS
 

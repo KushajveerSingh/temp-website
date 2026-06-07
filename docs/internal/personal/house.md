@@ -75,6 +75,8 @@ nav_exclude: true
 - Siberian Husky
 - Irish Wolfhound
 - The Great Dane
+- Border collie
+- Belgian Malinois
 
 #### Food
 

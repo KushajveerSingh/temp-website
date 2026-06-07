@@ -194,6 +194,14 @@ Take inspiration from
     - Similarly, ranges for each element data. These can change over time, but the previous samples should not be affected.
     - In the JSON data for each sample, entries can be created for which instrument was used, instrument minimums, element ranges.
 - Test all pages and reports using screen readers (JAWS, NVDA, VoiceOver). Include this in accessibility documentation section as well, and how to set them up (be careful with setting up though, since people who already use these would not change their settings for you).
+- To add new items in the inventory management system add the following workflow
+    - For each item, specify how to handle bringing the item in, how to handle it while moving internally, how to handle when removing.
+    - For each action like bringing item in, the user can select from a dropdown or list of text that the admin has created for them.
+    - Further split can be created in each category, like any special equipment requirement to handle like gloves, mask, moving with tray.
+    - You can also specify, the room numbers where the item can possibly be.
+    - This will primarily be text based, and the lab can create their own convention on how to specify the text.
+- For employee page, give instructions on how they can line up all the employees and take picture with the best camera using square format head to above belly.
+    - On the employee page, admin will select the employee and modify the picture.
 
 ### Agriculture SAAS
 

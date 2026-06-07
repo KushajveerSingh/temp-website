@@ -169,6 +169,47 @@ Take inspiration from
 - A better alternative to department of health and usda, and an unbiased testing facility for food products and recommendations.
 - Add toos like calorie tracker and thenutrient breakdown of all foods you eat. Include supplementation.
 
+## OpenSaas
+
+- Find all the popular and niche SAAS and management systems and create OpenKush version of them.
+- To find industries
+    - [capterra](https://www.capterra.com/categories/)
+    - [North American Industry Classification System](https://www.census.gov/naics/?99967)
+    - [Global Industry Classification Standard](https://www.msci.com/indexes/index-resources/gics)
+
+### Laboratory Inventory Management System (LIMS)
+
+- Lims system using quickjs.
+- Create an api for the entire project (this is not referring to the http api, but an api for getting info from the global config).
+- Now for the UI of the LIMS system, you query the api and build the template. In this way, you can have multiple templates for the system. Every lab can easily build their own template.
+    - Updating the software becomes easier as now you only have to update the api and if there are any breaking changes, you make the changes in the template.
+    - As part of the default template, make the all the smaller components available for people to build their template on as well.
+- Links
+    - [link](https://www.labbit.com/) labbit
+- On instrument page, drop file and choose any needed parameters, so that the loading of data is not dependent on filename. In case of incorrect format, show example of correct format.
+- On sample submission page for client, ask for what tests they are requested in, and then ask for the relevant information for each test. Group the input fields or data they need to provide for sample into separate groups. One group would be the "minimum information required", and then admin can create more groups. Have each test associated with multiple groups if needed. Show the groups after user has done selecting all tests.
+- On the permissions page to control access of employees to internal pages, use glob patterns to provide access to pages for employees. Document how to use glob pattern like file name, \*, \*\*. And any performance issues.
+- On generated reports, show additional available insights or analysis. Like for feeds, the clients can run PMN calculator.
+- For each sample, you will have to store the instrument minimum thresholds as well, since the thresholds can change over time. The data for previous samples should remain unaffected when changes are made to minimum thresholds.
+    - Similarly, ranges for each element data. These can change over time, but the previous samples should not be affected.
+    - In the JSON data for each sample, entries can be created for which instrument was used, instrument minimums, element ranges.
+- Test all pages and reports using screen readers (JAWS, NVDA, VoiceOver). Include this in accessibility documentation section as well, and how to set them up (be careful with setting up though, since people who already use these would not change their settings for you).
+
+### Agriculture SAAS
+
+- What are the different types of things where agriculture related stuff is relevant (like water, soil, ...).
+- Now dig deeper into each type.
+- For water, where are all the places it is used (tap water, water filtration system, desalination systems, agriculture, acquarium, ships, ...).
+- For each use case, build a simpler 3d printed model, to understand how these systems are constructed. Like how a tap water is built from the tap, to the pipes that carry the water. These will help identify issues that are impossible to think about just mentally.
+- For each use case, identify the analysis or test that is relevant.
+- In addition to the 3d model, make an animation that can be used to teach people how the system they are using is constructed.
+- Consolidate all agriculture related software companies, precision agriculture, research papers.
+- Show how much people are saving by using this project. For every usecase, anlysis show the price from commercial companies.
+
+### Accessibility
+
+- Works on all operating systems. Handles all file formats like Web, PDF.
+
 ## VPN Performance Check
 
 - Use vpn to check your site performance across counties.
@@ -522,34 +563,6 @@ Take inspiration from
 - Look at different sports, and parts they normally use, and make a series of sports that cover all parts of the body, without overusing the same part over and over again.
 - Look at mentality, physicality aspect of the sports as well.
 - Give suggestions like playing with old people, young people, left/right hand, playing with woman if you are a man. This covers playing the same sport slowly (against old people), and faster (against younger people).
-
-## Laboratory Inventory Management System (LIMS)
-
-- Lims system using quickjs.
-- Create an api for the entire project (this is not referring to the http api, but an api for getting info from the global config).
-- Now for the UI of the LIMS system, you query the api and build the template. In this way, you can have multiple templates for the system. Every lab can easily build their own template.
-    - Updating the software becomes easier as now you only have to update the api and if there are any breaking changes, you make the changes in the template.
-    - As part of the default template, make the all the smaller components available for people to build their template on as well.
-- Links
-    - [link](https://www.labbit.com/) labbit
-- On instrument page, drop file and choose any needed parameters, so that the loading of data is not dependent on filename. In case of incorrect format, show example of correct format.
-- On sample submission page for client, ask for what tests they are requested in, and then ask for the relevant information for each test. Group the input fields or data they need to provide for sample into separate groups. One group would be the "minimum information required", and then admin can create more groups. Have each test associated with multiple groups if needed. Show the groups after user has done selecting all tests.
-- On the permissions page to control access of employees to internal pages, use glob patterns to provide access to pages for employees. Document how to use glob pattern like file name, \*, \*\*. And any performance issues.
-- On generated reports, show additional available insights or analysis. Like for feeds, the clients can run PMN calculator.
-- For each sample, you will have to store the instrument minimum thresholds as well, since the thresholds can change over time. The data for previous samples should remain unaffected when changes are made to minimum thresholds.
-    - Similarly, ranges for each element data. These can change over time, but the previous samples should not be affected.
-    - In the JSON data for each sample, entries can be created for which instrument was used, instrument minimums, element ranges.
-
-## Agriculture SAAS
-
-- What are the different types of things where agriculture related stuff is relevant (like water, soil, ...).
-- Now dig deeper into each type.
-- For water, where are all the places it is used (tap water, water filtration system, desalination systems, agriculture, acquarium, ships, ...).
-- For each use case, build a simpler 3d printed model, to understand how these systems are constructed. Like how a tap water is built from the tap, to the pipes that carry the water. These will help identify issues that are impossible to think about just mentally.
-- For each use case, identify the analysis or test that is relevant.
-- In addition to the 3d model, make an animation that can be used to teach people how the system they are using is constructed.
-- Consolidate all agriculture related software companies, precision agriculture, research papers.
-- Show how much people are saving by using this project. For every usecase, anlysis show the price from commercial companies.
 
 ## Bike Car Cover
 
@@ -1413,3 +1426,5 @@ Take inspiration from
 - Add option to inline css or use separate file. Have option to just have css reset inlined.
 - Handle CORS by enabling everything and adding only necessary things to it.
 - Add necessary HTTP headers in the HTML as well.
+- Look at all frontend frameworks and copy their features relevant to html, css. For example, the frameworks will add lazy loading, prefetching of resources. Make all of these features opt-in.
+- Add a build option provider. It can be a deparate go file, create the object in there. When calling the framework, pass the build file for all the options.

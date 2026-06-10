@@ -21,14 +21,6 @@ nav_exclude: true
 
 ## HTML
 
-- [ ] web.dev Resources
-    - [ ] [link](https://web.dev/learn/html) Learn HTML
-    - [ ] [link](https://web.dev/learn/forms) Learn Forms
-- [ ] MDN Resources
-    - [ ] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content) Learn: Structuring content with HTML
-    - [ ] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms) Learn: Web forms
-    - [ ] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Solve_HTML_problems) Learn: Common HTML problems
-    - [ ] [link](https://developer.mozilla.org/en-US/docs/Web/HTML) References: HTML
 - [ ] [link](https://github.com/cure53/DOMPurify) DOMPurify
 - [link](https://html-validate.org/about/index.html) HTML-Validate
 - [link](https://github.com/validator/validator) Nu HTML Checker
@@ -48,11 +40,6 @@ nav_exclude: true
     - [ ] [link](https://www.mux.com/docs) MUX
 - [ ] Audio
     - [ ] [link](https://frontendmasters.com/courses/web-audio/) Web Audio Synthesis & Visualization
-
-## Email
-
-- [ ] [link](https://frontendmasters.com/courses/html-email-v2/) HTML Email Development, v2
-- [ ] [link](https://mjml.io/) mjml
 
 ## Progressive web apps
 

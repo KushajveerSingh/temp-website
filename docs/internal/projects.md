@@ -141,6 +141,14 @@ Take inspiration from
 
 - Create a phone with open-source blueprint and modular approach.
 - Every component can be individually purchased and integrated into the system.
+- Adventure related stuff
+    - Create a case that seals the entire phone and will help it float in case it drowns.
+    - Add attachement for satellite communication.
+- Create 2 battery variations.
+    - One that just fits.
+    - Create a thicker version, that increases the thinckness of the phone as well.
+- For every component, provide alternatives and what features are unnecessary for each System on a chip, and how each SOC feature can be enabled or disabled. Also, include option to remove the SOC.
+    - Example: Allow multiple Wifi chips to be compatible with the phone, and also having no Wifi chip at all.
 
 ### OpenLaptop
 
@@ -202,6 +210,12 @@ Take inspiration from
     - This will primarily be text based, and the lab can create their own convention on how to specify the text.
 - For employee page, give instructions on how they can line up all the employees and take picture with the best camera using square format head to above belly.
     - On the employee page, admin will select the employee and modify the picture.
+- For reading data from instrument, first go to read data page, then choose instrument, then select one of the many tests that are conducted on the instrument, upload the file, choose the required variables (so that the filename does not matter).
+- Choose between creating a read data page or incorporating read data on the instrument page. On the instrument page can can create subpages for each instrument like read data, view logs/summary of submitted data, documentation. Create section for installation for both software and hardware on the same page. For hardware this also includes where all the wires connect to the wall and the pc. Also include instrument maintenance and cleaning section.
+- Create disaster recovery protocol and include it in the setup docs.
+- Create a reference lims for aesl which is separate from the one they are using. This reference will act as a guide for when labs are building their own. In the documentation the reference lims system will be referenced.
+- Have a single left sidebar, which lists all the applications. For something like i struments, it will list all the pages underneath. Do not create two sidebars.
+- For each page of the application have an exit function which will run, when the user tries to navigate away from the page. You can use this to check for any unsaved data.
 
 ### Agriculture SAAS
 
@@ -368,6 +382,7 @@ Take inspiration from
 - Integrate testing to show the components for all test cases.
 - Add documentation on how to use the component.
 - Take screenshots of the components from all browsers. Look into using OBS (or native Linux APIs to capture screenshot).
+- Add view of the component with the popular chrome extensions installed
 
 ### Accessibility
 
@@ -1436,3 +1451,6 @@ Take inspiration from
 - Add necessary HTTP headers in the HTML as well.
 - Look at all frontend frameworks and copy their features relevant to html, css. For example, the frameworks will add lazy loading, prefetching of resources. Make all of these features opt-in.
 - Add a build option provider. It can be a deparate go file, create the object in there. When calling the framework, pass the build file for all the options.
+- HTML tools
+    - [link](https://html-validate.org/rules/index.html) HTML-validate rules
+    - [link](https://validator.w3.org/nu/) Nu HTML checker

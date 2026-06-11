@@ -19,12 +19,6 @@ nav_exclude: true
 
 <!-- prettier-ignore-end -->
 
-## HTML
-
-- [ ] [link](https://github.com/cure53/DOMPurify) DOMPurify
-- [link](https://html-validate.org/about/index.html) HTML-Validate
-- [link](https://github.com/validator/validator) Nu HTML Checker
-
 ## Media
 
 - [ ] web.dev Resources
@@ -558,6 +552,7 @@ Check [Learn - Distributed Computing](/internal/learn/cs-fields/distributed-comp
 
 ## Node.js
 
+- [link](https://frontendmasters.com/courses/api-design-nodejs-v5/) API Design in Node.js, v5
 - [ ] [link](https://www.amazon.com/Full-Stack-JavaScript-Strategies-Mid-Level-Developer/dp/1098122259?ref_=ast_sto_dp) Full Stack JavaScript Strategies: The Hidden Parts Every Mid-Level Develop Needs to Know
 - [ ] [link](https://www.amazon.com/Efficient-Node-js-Beyond-Basics-Guide/dp/1098145194) Efficient Node.js: A Beyond-the-Basics Guide
 - [ ] [link](https://frontendmasters.com/courses/servers-node-js/) FrontendMasters: The Hard Parts of Servers & Node.js
@@ -615,6 +610,9 @@ Check [Learn - Distributed Computing](/internal/learn/cs-fields/distributed-comp
     - [link](https://www.reddit.com/r/Database/comments/s5rrog/what_are_some_good_books_or_resources_for/) Database design books
 - Conferences
     - [ ] [link](https://www.hytradboi.com/) HYTRADBOI 2025
+- FrontendMasters
+    - [link](https://frontendmasters.com/courses/databases-v2/) Complete Intro to Databases, v2
+    - [link](https://frontendmasters.com/courses/sqlite/) Complete Intro to Sqlite
 
 ### SQL
 

@@ -42,9 +42,11 @@ nav_exclude: true
 ## Courses
 
 - [ ] FrontendMasters courses
+    - [link](https://frontendmasters.com/courses/fullstack-v3/) Full stack fundamentals, v3
     - [ ] [link](https://frontendmasters.com/courses/enterprise-devops/) Enterprise DevOps & Cloud Infrastructure
     - [ ] [link](https://frontendmasters.com/courses/fullstack-v3/) Full Stack for Front-End Engineers, v3
     - [ ] [link](https://frontendmasters.com/courses/devops/) Introducting DevOps for Developers
+    - [link](https://frontendmasters.com/courses/cloud-infrastructure/) Cloud Infrastructure: Startup to Scale
 - [ ] Hussein Nasser
     - [ ] [link](https://nginx.husseinnasser.com/) Introduction to NGINX
     - [ ] [link](https://www.youtube.com/playlist?list=PLQnljOFTspQUhgfvpgfxc-uFlWElKIBr-) Youtube: HAProxy

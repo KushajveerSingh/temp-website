@@ -869,13 +869,6 @@ Take inspiration from
 - Avoid having multiple smaller functions that are a wrapper over some other function.
 - Create linter and vscode shortcut generator instead of a separate library.
 
-## Nvidia GUI
-
-- Make a GUI for all of nvidia ecosystem.
-- Script that includes setting up the libraries and further installing multiple versions.
-- Documentation that includes project setup on all possible options, like personal computer, distributed computer, cloud, nvidia hardware.
-- How to choose the hardware for your application and run the desired application.
-
 ## Physical Calendar Template
 
 - Create a template for a physical calendar.
@@ -1314,6 +1307,23 @@ Take inspiration from
 - There is additional software that shows network activity and other related stuff to this.
 - Create separate email accounts/browser profiles so as to keep everything separate from main.
 
+## Scientific computing
+
+- Create a single GUI that handles all the software related to different branches of science like maths, physics, chemistry, ...
+- Look at field specific tools like
+    - Mathematica, Maple, Matlab, Magam - which each focus on a field of maths.
+- Look at all the subfields of each discipline.
+- Refernce [Nvidia GUI project](#nvidia-gui) and [STEM Learning/Simulations project](#stem-learningsimulations).
+- For each algorithm create a folder for it and then subfolders for each hardware device (cpu, nvidia gpu, amd gpu, intel gpu, arm) and place the relevant code in there.
+    - For some algorithms nvidia might be the only option.
+
+## Nvidia GUI
+
+- Make a GUI for all of nvidia ecosystem.
+- Script that includes setting up the libraries and further installing multiple versions.
+- Documentation that includes project setup on all possible options, like personal computer, distributed computer, cloud, nvidia hardware.
+- How to choose the hardware for your application and run the desired application.
+
 ## STEM Learning/Simulations
 
 ### Math
@@ -1339,7 +1349,7 @@ Take inspiration from
 
 ### Chemistry
 
-## Statistical Analysis Software
+### Statistical Analysis Software
 
 - Create software that includes everything that a statistian would need to analyze data.
 - Include Epidemiology, popular libraries in R, Excel.

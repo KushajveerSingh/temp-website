@@ -961,6 +961,7 @@ Take inspiration from
 - Use things learned from Computer Enhance course.
 - [link](https://en.wikipedia.org/wiki/List_of_data_structures) Wikipedia list of data structures
 - [link](https://xlinux.nist.gov/dads/) Dictionary of algorithms and data structures
+- Look at all the other programming langauges and add all their standard libraries as well.
 
 ## Stripe Clone
 

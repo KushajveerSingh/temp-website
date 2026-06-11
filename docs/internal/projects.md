@@ -172,6 +172,11 @@ Take inspiration from
 - For global account like in Chrome you sign in with Google, use OpenAuth or a local version.
 - After a working browser has been created. Create a clone of all the popular apps, if multiple can be consolidated into one do that. And make these part of the browser.
 
+### OpenSearchEngine
+
+- Let people go to a url and crawl the website to build their local search engine.
+- I can create my own search engine, and when users download it give them the option to remove the websites they don't need.
+
 ### OpenFoodTest
 
 - A better alternative to department of health and usda, and an unbiased testing facility for food products and recommendations.
@@ -213,6 +218,9 @@ Take inspiration from
 - For reading data from instrument, first go to read data page, then choose instrument, then select one of the many tests that are conducted on the instrument, upload the file, choose the required variables (so that the filename does not matter).
 - Choose between creating a read data page or incorporating read data on the instrument page. On the instrument page can can create subpages for each instrument like read data, view logs/summary of submitted data, documentation. Create section for installation for both software and hardware on the same page. For hardware this also includes where all the wires connect to the wall and the pc. Also include instrument maintenance and cleaning section.
 - Create disaster recovery protocol and include it in the setup docs.
+    - Have 2 pages.
+    - First for promoting backup setver rack as primary. Focus on restoring database. The backup server is already running at the url like temp.lab.com and is only accessible internally. There is also a flag which prevents any database operation on this temp url, in case someone accidently accesses it. During disaster recovery, we first restore the database on the backup server, change the flag or redeploy with env variable to let all database operations, and now the lab can run as normal using the temp url. The lab can then focus on changing the url to the original.
+    - For second backup page, we have to restore from offsite/offline backup. This is where the backip server is also not usable or there is ransomwhare on it. For offline it is not connected to the internet and cannot run any programs.
 - Create a reference lims for aesl which is separate from the one they are using. This reference will act as a guide for when labs are building their own. In the documentation the reference lims system will be referenced.
 - Have a single left sidebar, which lists all the applications. For something like i struments, it will list all the pages underneath. Do not create two sidebars.
 - For each page of the application have an exit function which will run, when the user tries to navigate away from the page. You can use this to check for any unsaved data.
@@ -531,6 +539,10 @@ Take inspiration from
 - Add KDE plasma, other display manager specific settings.
 - Handle operating system differences like certain files existing in different locations, and provide option to change the default path.
 - For testing, create a test utility (described next).
+
+### Gentoo Distro
+
+- Create a helper guide for setting up gentoo and customizing all the main software, like linux kernel to keep only the relevant stuff, browsers, text editors, terminal and more. - - Create all the relevant software around to make it feature proof like windows and mac, and popular linux distros.
 
 ### Hyprland
 
@@ -969,6 +981,7 @@ Take inspiration from
 - Use things learned from Computer Enhance course.
 - [link](https://en.wikipedia.org/wiki/List_of_data_structures) Wikipedia list of data structures
 - [link](https://xlinux.nist.gov/dads/) Dictionary of algorithms and data structures
+- Look at all the other programming langauges and add all their standard libraries as well.
 
 ## Stripe Clone
 
@@ -1464,3 +1477,10 @@ Take inspiration from
 - HTML tools
     - [link](https://html-validate.org/rules/index.html) HTML-validate rules
     - [link](https://validator.w3.org/nu/) Nu HTML checker
+- Add js specific files like first-load-events, events (do event delegation on body tag, rather than individual elements), browser api helpers. When creating wrapper for browser apis, also handle all the weird quirks and edge cases.
+- The program creates a links.txt file as well which is then passed to nu checker to check html ad well, as well as any accessibility checker websites.
+
+## Old Protocol GUI
+
+- Combine all old protocols into one unified interface. [terrygodier.com/the-boring-internet/ascii](https://www.terrygodier.com/the-boring-internet/ascii)
+- This essentially becomes a GUI for all self-hosted essentials, like DNS, SSH, email, rss, ...

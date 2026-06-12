@@ -64,6 +64,7 @@ nav_exclude: true
 - [link](https://rusa.org/) Randonneurs USA
     - [link](https://haroen.me/brevet-finder/?refinementList[country]=USA&view=hits&range[date]=20260427:) Brevet finder
 - [link](https://ultracycling.com/) Ultracycling
+    - [link](https://en.wikipedia.org/wiki/Around_the_world_cycling_record) Around the world
 - [link](https://www.granfondoguide.com/) Gran Fondo
 - Youtube
     - [link](https://www.youtube.com/@Buzzalong.cycling/videos) BuzzAlong youtube channel
@@ -75,6 +76,8 @@ nav_exclude: true
 - Training
     - [link](https://boundless10200.com/coaching-training-plans/boundless-base) Boundless Coaching
     - [link](https://mywhoosh.com/) mywhoosh training plan
+- Learning
+    - [link](https://www.youtube.com/playlist?list=PLRzN4bQ3Wq7i8vediNCl-Sd0LNNwEXOYQ) How to ride by CyclingSkills youtube playlist
 
 ### Bowling
 

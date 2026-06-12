@@ -224,6 +224,11 @@ Take inspiration from
 - Create a reference lims for aesl which is separate from the one they are using. This reference will act as a guide for when labs are building their own. In the documentation the reference lims system will be referenced.
 - Have a single left sidebar, which lists all the applications. For something like i struments, it will list all the pages underneath. Do not create two sidebars.
 - For each page of the application have an exit function which will run, when the user tries to navigate away from the page. You can use this to check for any unsaved data.
+- Look into splitting the database for each year and tracking where the database for that year is stored. For older fiscal years we can move the database to slower archival storage and the programs will still work.
+- Add ability to video call, audio call employees. This can get rid of internal phones, and other subscriptions to do zoom and phone calls. Similar to leave page, add a page for meetings, and making it easier to add and view meetings.
+    - Add page to do employee polls. And client polls/surveys.
+    - Issue tracker, tracker for legal issues.
+    - For a lot of these pages, things can be kept simple by letting people enter Rich Text, and the first page being a template page, which users can copy or it gets pasted by default.
 
 ### Agriculture SAAS
 

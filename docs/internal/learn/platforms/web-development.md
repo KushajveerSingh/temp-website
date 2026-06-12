@@ -157,6 +157,8 @@ nav_exclude: true
     - [link](https://www.getstark.co/) Stark
 - [ ] [link](https://inclusive-components.design/) Inclusive components
 - [ ] [link](https://inclusive.microsoft.design/) Microsoft Inclusive Design
+- [link](https://css-tricks.com/comparing-jaws-nvda-and-voiceover/) A Brief Introduction to JAWS, NVDA, and VoiceOver
+- [link](https://assistivlabs.com) Assistive Labs
 
 ## JavaScript
 

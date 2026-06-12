@@ -53,6 +53,7 @@ nav_exclude: true
 - Birdhouse
 - Plants to attract butterflies.
 - Air plants in home.
+- [link](https://www.youtube.com/watch?v=uWrGlMdGqOI) Scythe Mowing
 
 ## Pets
 

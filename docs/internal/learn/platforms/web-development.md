@@ -184,6 +184,8 @@ nav_exclude: true
 - [ ] Libraries
     - [ ] [link](https://es-toolkit.dev/) es-toolkit
 - [ ] FrontendMasters
+    - [link](https://frontendmasters.com/courses/realtime/) Complete Intro to Real-time
+    - [link](https://frontendmasters.com/courses/tour-js-patterns/) A Tour of JavaScript & React Patterns
     - [ ] [link](https://frontendmasters.com/courses/javascript-hard-parts-v3/) JavaScrip: The Hard Parts, v3 by Will Sentance
     - [ ] [link](https://frontendmasters.com/courses/js-design-patterns/) JavaScript Design Patterns for Web Apps
     - [ ] [link](https://frontendmasters.com/courses/frontend-system-design/) Front-End System Design
@@ -531,6 +533,7 @@ Check [Learn - Distributed Computing](/internal/learn/cs-fields/distributed-comp
 - [ ] FrontendMasters courses
     - [ ] [link](https://frontendmasters.com/courses/backend-architectures/) Introduction to Backend Architectures
     - [ ] [link](https://frontendmasters.com/courses/backend-system-design/) Backend System Design
+    - [link](https://frontendmasters.com/courses/servers-node-js/) The Hard Parts of Servers & Note.js
 - [ ] Hussien Nasser
     - [ ] [link](https://backend.husseinnasser.com/) Course: Fundamentals of Backend Engineering
     - [ ] [link](https://performance.husseinnasser.com/) Course: Backend Performance

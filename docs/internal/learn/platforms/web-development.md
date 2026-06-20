@@ -49,6 +49,10 @@ nav_exclude: true
 
 ## CSS
 
+- Naming
+    - [link](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture) ITCSS
+    - [link](https://cube.fyi/#what-does-cube-css-stand-for) Cube CSS
+    - [link](https://www.reddit.com/r/css/comments/1doepb1/which_css_naming_convention_do_you_typically_use/) Reddit post
 - [link](https://modern-css.com/) modern.css
 - [link](https://courses.thecascade.dev/dashboard) Kevin Powell CSS Demystified course
 - [link](https://gridbyexample.com/) Grid by example

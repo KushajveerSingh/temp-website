@@ -19,6 +19,10 @@ nav_exclude: true
 
 <!-- prettier-ignore-end -->
 
+## Virtual machines
+
+- [link](https://github.com/apple/container?ck_subscriber_id=2308324911) Macos "container"
+
 ## Architecture Decision Record
 
 - [x] [link](https://alfy.blog/2021/01/01/adrs.html) Architecture Decision Records by Ahmad Alfy

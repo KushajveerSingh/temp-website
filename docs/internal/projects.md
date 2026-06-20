@@ -236,6 +236,38 @@ Take inspiration from
 - For login in addition to email/password support email only with 2fa, passkey only (the admin will have to log into the database manually to reset their)
 - Documentation will be in English. But the UI will be internatiolized. Make the internaolization build only, so you are generating ui for all the languages in different folders like en, fr.
 
+#### List of LIMS
+
+- https://www.labmanager.com/vendors/products/lims
+- https://www.capterra.com/laboratory-information-management-system-software/?sort=alphabetical
+- https://limswiki.com/
+- https://www.thelabhq.com/
+
+#### SQL page
+
+![](../assets/projects/lims-sql-page.png)
+
+- Two rows
+- The layout fits on the screen and users will have to scroll for the overflow.
+- I am essentially helping people build the filters/transformations that data tables generally have he controls for in the table itself. But instead of building those controls int he data table itself, I have the users open this page.
+- Bottom row
+    - Show a dummy table with multiple columns and 3 rows.
+    - Add a message at top. Showing 3 rows for performance.
+- Top row
+    - Tow column with sidebar on left to select the controls.
+        - In sidebar have a group for columns, which will list all the columns of the table. Have + , - sign next to it, to add the column in the right column.
+        - Have a metrics group, which will show things like mean, max, .... These metrics can be added for before filtering the data and/or after filtering the data.
+        - Have charts group, where users can add various charts for the columns.
+        - Have filtering group for things like, startswith, endswith, includes
+        - Have transformation group for things like toupeprcase, data type conversion, ...
+    - In the right column, for every column added add this ui.
+        - Show the column header
+        - Show an input box, where they will essentially enter the filtering or transformation.
+        - To the righ side have an "or" and another input box. If they type into this, another "or" input would be created.
+        - To the bottom have an "and" and another input box. If they type into this, another "and" input would be created.
+        - Have different sections for filtering, transformation, metrics within each column, so that users know here to input each thing and they do not get confused.
+    - The user can click on the things in the sidebar and it will add them to the active input box.
+
 ### Agriculture SAAS
 
 - What are the different types of things where agriculture related stuff is relevant (like water, soil, ...).

@@ -1533,3 +1533,22 @@ Take inspiration from
 - Create a tabular list of all bike parts in one category like chain and list all the parts from least to most espensive, and below that list the specs of each. The list of all chains can be further categorized into groups. Below the specs, list all the relevant information necessary to understand the specs. Print out all the information in a pdf, which bike shops can show to customers.
 - The products further need to listed separately for road, gravel, mountain bikes.
 - Include installation, maintenance guide for each product as well.
+
+## Web Slides
+
+- Instead of creating slides in powerpoint, create using HTML.
+- In HTML provide similar interface and all tools of powerpoint.
+- This will help make the slides more accessible, and interactive.
+- When building the slides show a sidebar on the page that lists all information you forgot to provide for accessibility reasons.
+
+### Learning Management System (LMS)
+
+- Look into LMS system used to create courses.
+- In addition to Web Slides, the program can support creating courses.
+
+### Accessible PDF
+
+- PDF has different set of tags similar to HTML. Chrome converts HTML to PDF tags internally.
+- Write program for similar converion from HTML to PDF with accessibility in mind.
+- Web slides can PDF as well.
+- Maybe no need for exact conversion. But instead create a page that mimics that a PDF is supposed to look like using HTML and the user can Ctrl-S the website to save local copy. And use chrome's built in PDF export to print it.

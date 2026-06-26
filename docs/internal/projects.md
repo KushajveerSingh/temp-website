@@ -1590,3 +1590,5 @@ Take inspiration from
 - Create something similar to [FulGaz](https://fulgaz.com/). Record rides, hikes, mountains.
 - Look at how fulgaz handles editing of files before publishing.
 - Integrate all the training metrics and other things from apps like Zwift, mywhoosh.
+- Record at 4k60fps, 10-bit depth, max stabilization, 4:3. Connect external battery, and bike computer to track eleveation and other data. Have a live preview of the recording to see if there are problems with the recording like dust.
+- Export to multiple formats 4:3, 16:9, 16:10, 21:9.

@@ -1584,3 +1584,9 @@ Take inspiration from
 - Write program for similar converion from HTML to PDF with accessibility in mind.
 - Web slides can PDF as well.
 - Maybe no need for exact conversion. But instead create a page that mimics that a PDF is supposed to look like using HTML and the user can Ctrl-S the website to save local copy. And use chrome's built in PDF export to print it.
+
+## Route Recordings
+
+- Create something similar to [FulGaz](https://fulgaz.com/). Record rides, hikes, mountains.
+- Look at how fulgaz handles editing of files before publishing.
+- Integrate all the training metrics and other things from apps like Zwift, mywhoosh.

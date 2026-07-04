@@ -192,6 +192,7 @@ Take inspiration from
 
 ### Laboratory Inventory Management System (LIMS)
 
+- Have the entire system in a folder. When upgrading the user just has to replace the folder. For user-created pages, they will be in a separate folder.
 - Lims system using quickjs.
 - Create an api for the entire project (this is not referring to the http api, but an api for getting info from the global config).
 - Now for the UI of the LIMS system, you query the api and build the template. In this way, you can have multiple templates for the system. Every lab can easily build their own template.
@@ -1592,3 +1593,32 @@ Take inspiration from
 - Integrate all the training metrics and other things from apps like Zwift, mywhoosh.
 - Record at 4k60fps, 10-bit depth, max stabilization, 4:3. Connect external battery, and bike computer to track eleveation and other data. Have a live preview of the recording to see if there are problems with the recording like dust.
 - Export to multiple formats 4:3, 16:9, 16:10, 21:9.
+
+## Website Builder Helper
+
+- Have the entire project in a folder. For upgrading just replace the folder.
+- First page, shows about information related to the helper, like version numbers, changelog and stuff like that.
+- Links page, specify all the links of your website.
+- Email
+    - Look at all popular email realted tools.
+    - Create helpers with best practices and components to build a single/double column email. Look at popular templates and identify components from that as well.
+- Common file editor. Edit common files like editorconfig, .gitignore, and more from the interface. Include editor files like vscode, jetbrains as well.
+- HTML
+    - Look at html linters and related rules.
+    - Look at HTML spec for each tag and all the specific rules around that.
+    - Look at populat HTML related tools.
+    - HTML head reorder.
+    - Help to get code for each HTML element, and how the workflow can be optimized for the use cases of the element.
+    - Try displaying the AOM node value next to HTML element in either the editor or in the application. So you are essentially combining DOM and AOM.
+    - When creating labels to help with accessiiblity like providing aria-label, screen readers will add text before the label. For example for `<nav>`, screen reader will announce it as `Navigation ...`. Add this default information as well, to help create labels.
+    - Create a page for all the special characters like `&copy;`.
+    - Add templating support to HTML to create template components similar to Go templates, and the tool can create raw HTML files from it.
+    - Add ideas from internatiolization project. Show a page which goes through allt he strings and asks you to take screenshots and provide relevant context, which will be shared to the translators.
+- Design system
+    - Build a design system using modern css and html.
+    - Start with defining the variable.
+    - Then set the styles for each HTML element. This also acts as the reset.
+    - Include styles for different media as well, like accessibility, print.
+- Support printing out the entire site.
+    - CSS reset needs to support print specific styles. Printers work with CMYK space and using RGB for them is bad.
+    - Create helper for users to adjust the styles as well, like margins, spacing, ignore pages, ignore sections of a page as well.

@@ -19,109 +19,6 @@ nav_exclude: true
 
 <!-- prettier-ignore-end -->
 
-## Media
-
-- [ ] web.dev Resources
-    - [ ] [link](https://web.dev/learn/images) Learn Images
-    - [ ] [link](https://piccalil.li/blog/the-end-of-responsive-images/?ck_subscriber_id=2308324911) The end of responsive images
-- [ ] MDN Resources
-    - [ ] [link](https://developer.mozilla.org/en-US/docs/Web/Media) References: Media
-    - [ ] [link](https://developer.mozilla.org/en-US/docs/Web/SVG) References: SVG
-- [ ] Image
-    - [ ] [link](https://ausi.github.io/respimagelint/docs.html) Image Linter rules
-    - [ ] [link](https://frontendmasters.com/courses/svg-essentials-animation/) FrontendMasters: SVG Essentials & Animations, v2
-- [ ] Video
-    - [ ] [link](https://www.mux.com/docs) MUX
-- [ ] Audio
-    - [ ] [link](https://frontendmasters.com/courses/web-audio/) Web Audio Synthesis & Visualization
-
-## Progressive web apps
-
-- [ ] web.dev Resources
-    - [ ] [link](https://web.dev/learn/pwa) Learn PWA
-    - [ ] [link](https://web.dev/explore) Explore: Progressive Web App
-- [ ] MDN Resources
-    - [ ] [link](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps) References: Progressive web apps
-- [ ] [link](https://serviceworkies.com/) Service Worker mastery game
-- [ ] [link](https://developer.chrome.com/docs/workbox) Workbox
-- [ ] [link](https://frontendmasters.com/courses/pwas-v2/) FrontendMasters: PWAs You Might Not Need That App Store
-- [ ] [link](https://frontendmasters.com/courses/service-workers/) FrontendMasters: Exploring Service Workers
-
-## CSS
-
-- Naming
-    - [link](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture) ITCSS
-    - [link](https://cube.fyi/#what-does-cube-css-stand-for) Cube CSS
-    - [link](https://www.reddit.com/r/css/comments/1doepb1/which_css_naming_convention_do_you_typically_use/) Reddit post
-- [link](https://modern-css.com/) modern.css
-- [link](https://courses.thecascade.dev/dashboard) Kevin Powell CSS Demystified course
-- [link](https://gridbyexample.com/) Grid by example
-- [link](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) A Complete Guide to Flexbox
-- [ ] [link](https://every-layout.dev/) Every Layout Relearn CSS layout by example
-- [ ] [link](https://cssbattle.dev/learn) CSS Battle: Learn CSS
-- [ ] [link](https://designcourse.com/app/course/interactive-css-course) DesignCourse: CSS
-- [ ] web.dev Resources
-    - [ ] [link](https://web.dev/learn/css) Learn CSS
-    - [ ] [link](https://web.dev/learn/design) Learn Design
-- [ ] MDN Resources
-    - [ ] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics) Learn: CSS styling basics
-    - [ ] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Text_styling) Learn: CSS Text styling
-    - [ ] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout) Learn: CSS layout
-    - [ ] [link](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Solve_CSS_problems) Learn: Common CSS problems
-    - [ ] [link](https://developer.mozilla.org/en-US/docs/Web/CSS) References: CSS
-- [ ] Articles
-    - [ ] [link](https://piccalil.li/blog/reality-check-1-building-out-a-furniture-site-from-dribbble/) Reality Check #1: Building out a furniture site from Dribble
-    - [ ] [link](https://viewports.fyi/) The IDeal Viewport Doesn't Exist
-- [ ] Tools
-    - [ ] [link](https://www.realtimecolors.com/?colors=050315-fbfbfe-2f27ce-dedcff-433bff&fonts=Inter-Inter) Realtime Colors
-- [ ] Games
-    - [ ] [link](https://csshell.dev/) CSS Shell
-    - [ ] [link](https://flexboxfroggy.com/) codepip: Flexbox Froggy
-    - [ ] [link](https://mastery.games/flexboxzombies/) Flexbox Zombies
-    - [ ] [link](http://www.flexboxdefense.com/) Flexbox Defense
-    - [ ] [link](https://cssgridgarden.com/) Grid Garden
-    - [ ] [link](https://cssbattle.dev/) CSS Battle
-    - [ ] [link](https://flukeout.github.io/) CSS Diner
-    - [ ] [link](https://codepip.com/games/anchoreum/) Anchoreum
-    - [ ] [link](https://codingfantasy.com/games/css-grid-attack)CSS Grid Attack
-    - [ ] [link](https://codingfantasy.com/games/flexboxadventure) Flex Box Adventure
-    - [ ] [link](https://codepip.com/games/cascade/) codepip: Cascade
-    - [ ] [link](https://codepip.com/games/css-scoops/) codepip: CSS Scoops
-    - [ ] [link](https://codepip.com/games/css-surgeon/) codepip: CSS Surgeon
-    - [ ] [link](https://codepip.com/games/flexbox-froggy-pro/) codepip: Flexbox Froggy Pro
-    - [ ] [link](https://codepip.com/games/nth-cart/) codepip: Nth Cart
-    - [ ] [link](https://codepip.com/games/selector-showdown/) codepip: Selector Showdown
-- [ ] FrontendMasters courses
-    - [ ] [link](https://frontendmasters.com/courses/intermediate-html-css/) Intermediate HTML & CSS
-    - [ ] [link](https://frontendmasters.com/courses/getting-started-css-v2/) Getting Started with CSS, v2
-    - [ ] [link](https://frontendmasters.com/courses/css-layouts/) Practical CSS Layouts
-    - [ ] [link](https://frontendmasters.com/courses/pro-css/) Professional CSS: Build a Website from Scratch
-    - [ ] [link](https://frontendmasters.com/courses/css-grid/) Ultimate CSS Grid & Layout Techniques, v3
-    - [ ] [link](https://frontendmasters.com/courses/css-animations/) CSS Animations and Transitions
-    - [ ] [link](https://frontendmasters.com/courses/winning-websites/) Award-Winning Marketing Websites
-    - [ ] [link](https://frontendmasters.com/courses/css-fundamentals/) Modern CSS Fundamentals by Kevin Powell
-- [ ] [link](https://www.devsheets.io/categories/css) CSS DevSheets by Travesy Media
-- [ ] Animations
-    - [ ] [link](https://emilkowal.ski/) Emil Kowalski animation blog
-    - [ ] [link](https://benji.org/) Benji Taylor blog
-    - [ ] [link](https://animations.dev/) animations.dev course by emil kowalski
-    - [ ] [link](https://developer.apple.com/videos/play/wwdc2018/803/) Designing Fluid Interfaces by apple
-    - [ ] [link](https://www.youtube.com/watch?v=fZpTvZuysIo) Benjamin De Cock youtube video
-- [ ] [link](https://9elements.github.io/fancy-border-radius) Fancy Border Radius generator
-- [ ] [link](https://keen-slider.io/) Keen Slider
-
-### Tools
-
-- [ ] [link](https://postcss.org/) PostCSS
-- [ ] [link](https://lightningcss.dev/) Lightning CSS
-
-### Tailwind
-
-- [ ] [link](https://tailwindcss.com/) Documentation
-- [ ] [link](https://codepip.com/games/tailwind-trainer/) codepip: Tailwind Trainer
-- [ ] [link](https://daisyui.com/) daisyUI
-- [ ] [link](https://frontendmasters.com/courses/tailwind-css-v2/) FrontendMasters: Tailwind CSS 4+
-
 ## Accessibility
 
 - [link](https://webaim.org/articles/) WebAIM
@@ -211,6 +108,12 @@ nav_exclude: true
     - [ ] [link](https://frontendmasters.com/courses/good-parts-javascript-web/) The Good Parts of JavaScript and the Web
     - [ ] [link](https://frontendmasters.com/courses/enterprise-patterns/) Enterprise Architecture Patterns
 - pretext
+
+### Service workers
+
+- [WIP-link](https://serviceworkies.com/) Service Worker mastery game
+- [WIP-link](https://developer.chrome.com/docs/workbox) Workbox
+- [WIP-link](https://frontendmasters.com/courses/service-workers/) FrontendMasters: Exploring Service Workers
 
 ### TypeScript
 

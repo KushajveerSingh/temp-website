@@ -1609,6 +1609,7 @@ Take inspiration from
     - Look at populat HTML related tools.
     - HTML head reorder.
     - Help to get code for each HTML element, and how the workflow can be optimized for the use cases of the element.
+        - For table also look at using differnt font for number columns to make each digit take equal space.
     - Try displaying the AOM node value next to HTML element in either the editor or in the application. So you are essentially combining DOM and AOM.
     - When creating labels to help with accessiiblity like providing aria-label, screen readers will add text before the label. For example for `<nav>`, screen reader will announce it as `Navigation ...`. Add this default information as well, to help create labels.
     - Create a page for all the special characters like `&copy;`.
@@ -1619,6 +1620,8 @@ Take inspiration from
     - Start with defining the variable.
     - Then set the styles for each HTML element. This also acts as the reset.
     - Include styles for different media as well, like accessibility, print.
+- CSS
+    - Add support to sort styles similar to tailwind.
 - Support printing out the entire site.
     - CSS reset needs to support print specific styles. Printers work with CMYK space and using RGB for them is bad.
     - Create helper for users to adjust the styles as well, like margins, spacing, ignore pages, ignore sections of a page as well.

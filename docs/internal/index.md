@@ -8,7 +8,6 @@ search_exclude: true
 
 <h2 class="text-delta">Table of content</h2>
 
-- [Working](/internal/working)
 - [Projects](/internal/projects)
 - Personal
     - [Adventure](/internal/personal/adventure)
@@ -44,7 +43,6 @@ search_exclude: true
 
 <h2 class="text-delta">New</h2>
 
-- [Working](/temp-website/internal/working)
 - [Projects](/temp-website/internal/projects)
 - Personal
     - [Adventure](/temp-website/internal/personal/adventure)

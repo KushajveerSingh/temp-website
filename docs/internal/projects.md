@@ -1625,3 +1625,4 @@ Take inspiration from
 - Support printing out the entire site.
     - CSS reset needs to support print specific styles. Printers work with CMYK space and using RGB for them is bad.
     - Create helper for users to adjust the styles as well, like margins, spacing, ignore pages, ignore sections of a page as well.
+- https://webutils.io/category/code

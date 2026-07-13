@@ -1596,6 +1596,9 @@ Take inspiration from
 
 ## Website Builder Helper
 
+- Provide a philosophy page, features page.
+    - Respect user's network bandwidth and limits.
+    - Respect user's using old hardware.
 - Have the entire project in a folder. For upgrading just replace the folder.
 - First page, shows about information related to the helper, like version numbers, changelog and stuff like that.
 - Links page, specify all the links of your website.

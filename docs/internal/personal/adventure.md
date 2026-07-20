@@ -65,6 +65,7 @@ nav_exclude: true
     - [link](https://haroen.me/brevet-finder/?refinementList[country]=USA&view=hits&range[date]=20260427:) Brevet finder
 - [link](https://ultracycling.com/) Ultracycling
     - [link](https://en.wikipedia.org/wiki/Around_the_world_cycling_record) Around the world
+    - [link](https://www.chainbusterracing.com/iron-maiden) 24 hour Iron Maiden
 - [link](https://www.granfondoguide.com/) Gran Fondo
 - Youtube
     - [link](https://www.youtube.com/@Buzzalong.cycling/videos) BuzzAlong youtube channel
@@ -84,9 +85,11 @@ nav_exclude: true
 - [link](https://www.youtube.com/playlist?list=PLIJkpFPX3BspjxF8mCxq8rWKZ74EYAgxh) The Classroom playlist by Luke Rosdahl
 - [link](https://www.nationalbowlingacademy.com/) National Bowling Academy videos
 
-### Hiking
+### Hiking/Marathon
 
 - Border-to-Border Calendar Year Triple Crown 10,000 mile challenge
+- [link](https://mountmarathon.com/) Mount Marathon Race
+- Barkley Marathon
 
 ### Rock climbing
 
@@ -160,7 +163,6 @@ nav_exclude: true
 - ETH Zürich swiss college
 - Swiss Alps and Gineava
 - Brazil Carnival (2 to 3 weeks)
-- Barkley Marathon
 - Great wall of china
 - Wonders of the world
 - Adirondack High Peaks in upstate New York

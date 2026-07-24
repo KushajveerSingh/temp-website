@@ -91,6 +91,7 @@ nav_exclude: true
 ### AWS
 
 - [ ] [link](https://frontendmasters.com/courses/aws-v2/) FrontendMasters: AWS For Front-End Engineers, v2
+- [link](https://frontendmasters.com/courses/aws-v3/) Deploying Web Applications on AWS, v3
 - [link](https://www.amazon.com/stores/page/2E260429-9218-4046-A93E-B27938A6ADE5?ingress=0) O'Reilly AWS section
 
 ## Containers

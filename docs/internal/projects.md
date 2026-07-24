@@ -247,6 +247,8 @@ Take inspiration from
 - From the sample submission page, create html editable forms for each test or subset of tests as well. Clients can print the written form, or print and then handwrite the form.
 - Create a page to transform Json structure of sample or other cokumn. This will apply the transformation to all the previous samples. There will be some downtime, but that is a tradeoff to make the process simple. There might be times when the lab was storing info from instrument, but now that data needs to be split into 2 columns.
 - Create section to for all the word files, excel files, powerpoint files in LIMS. Use HTML to create these instead. The files will be organized by templates (with subfolders) as needed. For every HTML page, there will be an option to load previous entered data or enter new data or modify one of the old data. Save the changes with date and a comment. People can print these pages and share with people. Make these accessible as well.
+- Prices of test change over time. The programs should reflect this, when calculating summaries and other graphs. The best way to handle is to keep the latest prices in the prices table with start and end date. If end is empty, then the price is latest. This information can also be used to consturct price changes over time. For the samples, we store the final price with the sample itself, so lookup in the price table is not necessary. And the same for when making the graphs.
+- For managing all the instruments and PCs, create a layout of the room and place the pcs in the layout. For each pc associate it with all the hardware details and other relevant stuff. Create some protocol to keep this information up to date. Include data ports, electrical outlets and stuff like that.
 
 #### List of LIMS
 
@@ -428,6 +430,10 @@ Take inspiration from
 - Component folder. This folder will contain the components.
 - After writing js with jsdoc, create a separate version for Qwik.
 - Create a component for all the accessibility needs.
+- Create a top down guide of how to build design system and components. This is framework agnostic as it is just a guide.
+- When building a reference implementation, use vanilla css. For html write raw html tags with a comment string like "import button" in case the compone t relies on other components.
+- Now the tricky part is js.
+- Provide them a stanalone webapp, which will contain the html files used to test the styles and also to guide the users. For each setting like padding, we will show various p tags or something that is relevant to padding on the webpage to make it visually easy for the user to make the decision. Then on the page, we will have different resolutions already setup for them to see the results, so that they don't have to manually scroll.
 
 ### Markdown Editor
 
@@ -1003,11 +1009,12 @@ Take inspiration from
 
 - Clash royale clone with the original gameplay and cards. Have a random mechanism where cards get buffed, nerfed every two weeks
 
-## Drone Wedding Show
+## Drone Show
 
 - Drone show for weddings, events.
 - For weddings, it can be a story that the bride/groom want to convey. On like how they met.
 - Cupid aroow at end with the bridge, groom initals.
+- [link](https://skyelementsdrones.com/) Syelements drone show
 
 ## Home Photographer
 
@@ -1532,6 +1539,7 @@ Take inspiration from
     - Maybe it shows them the rendered component as well in different languages.
 - On the developer side, they choose a base language. When they update an element in this language, only then the other languages will get missing translation flag.
     - In the UI component visualization project add support to render component in multiple translations.
+- [Webplate](https://weblate.org/en/) web based continous localization
 
 ## Handwritten Assembly
 

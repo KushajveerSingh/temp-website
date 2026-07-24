@@ -51,6 +51,11 @@ nav_exclude: true
 - fish shell
 - [link](https://starship.rs/) starship - prompt configuration
 - WezTerm
+- [link](https://helium.computer/) Helium - privacy browser
+- [link](https://bitwarden.com/) Bitwarden
+- [link](https://www.reddit.com/r/unixporn/wiki/index/) r/unixporn wiki
+- [link](https://docs.ansible.com/#get_started) Ansible
+- [link](https://www.reddit.com/r/unixporn/comments/1bbi7qr/how_do_you_guys_manage_your_dotfiles/) Dotfile manager reddit post
 
 ## Reddit
 
@@ -161,9 +166,9 @@ nav_exclude: true
 
 ### Version control
 
-- [link](https://about.gitlab.com/) GitLab
-- [link](https://about.gitea.com/) Gitea
 - [link](https://forgejo.org/) Foregejo
+    - [link](https://forgejo.org/compare-to-gitea/) Comparison with gitea (good reference in general on foss development)
+- [link](https://codeberg.org/user/login) Codeberg
 
 ## Software
 

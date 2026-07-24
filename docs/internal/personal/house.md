@@ -114,6 +114,7 @@ nav_exclude: true
 - Bowling lane (no strings)
 - [link](https://settercloset.com/collections/kilter-board) Rock climbing wall
 - [link](https://www.kompan.com/en/us/products/play) Kompan Commercial Playground Equipment and Structures
+- [link](https://www.youtube.com/watch?v=WLDaSQ-4i0E) Redbull football dribbling machine
 
 ## Youtube videos
 

@@ -78,6 +78,8 @@ nav_exclude: true
 - The Great Dane
 - Border collie
 - Belgian Malinois
+- Newfoundland
+- Presa Canario
 
 #### Food
 

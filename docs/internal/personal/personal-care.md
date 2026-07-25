@@ -87,6 +87,7 @@ nav_exclude: true
 - [link](https://www.amazon.com/Overcoming-Gravity-Systematic-Gymnastics-Bodyweight/dp/0990873854) Overcoming Gravity: A Systematic Approach to Gymnastics and Bodyweight Strength (Second Edition)
 - [link](https://www.youtube.com/watch?v=cKx8xE8jJZs) Enter the Kettlebell - Pavel Tsatsouline
 - [link](https://www.atgonlinecoaching.com/) Knees Over toes guy
+- [link](https://www.youtube.com/@ChrisBumstead/videos) Chris Bumstead youtube channel
 
 ### Shoe
 

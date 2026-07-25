@@ -1642,3 +1642,5 @@ Take inspiration from
 
 - Real Time Operating System
 - When importing libraries, you might have to rename functions - since C does not have namespacing.
+- Add comment syntax for namespacing. It can be `// namespace name start {` and `// namespace name end`.
+- Add comment syntax for async/await as well

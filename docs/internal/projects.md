@@ -1644,3 +1644,5 @@ Take inspiration from
 - When importing libraries, you might have to rename functions - since C does not have namespacing.
 - Look at all the programming languages features and find what they do internally, and how that can be achived in C (in some cases C features will make it where, the additional features are not even required).
 - Implement all the standard library and popular libraries for each language in C.
+- Add comment syntax for namespacing. It can be `// namespace name start {` and `// namespace name end`.
+- Add comment syntax for async/await as well
